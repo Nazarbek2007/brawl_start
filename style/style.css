@@ -1,0 +1,386 @@
+@import 'fonts.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__nav-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav {
+    background: blue;
+}
+
+.nav__box-h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto-Bold';
+    padding: 30px 0;
+}
+
+.nav__list-href {
+    color: white;
+    font-size: 25px;
+    font-family: 'Monserrat-Bold';
+    padding: 45px 13px;
+    transition: 0.5s;
+}
+
+.nav__list-href:hover {
+    color: black;
+    background: yellow;
+}
+
+.header__nav-right {
+    display: flex;
+    align-items: center;    
+}
+
+.header {
+    background: url('../images/wonder.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__content-href {
+    padding: 20px 40px;
+    font-size: 40px;
+    font-family: 'Monserrat-Black';
+    color: white;
+    background: black;
+    border-radius: 25px;
+    border: solid black 3px;
+    transition: 0.5s;
+}
+
+.header__content-href:hover {
+    color: black;
+    background: white;
+}
+
+.header__content-box {
+    height: 650px;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* MAIN START */
+
+.main {
+    background: linear-gradient(90.09deg, #3800AF 1%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+    padding: 30px 0;
+}
+
+.main__top {
+    height:650px;
+    display: flex;
+    flex-direction: column;
+    border: solid black 4px;
+}
+
+.main__top-h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto-Medium';
+    text-align: center;
+    padding: 30px 0;
+}
+
+.main__top-discription {
+    color: black;
+    margin-top: 25px;
+    width: 900px;
+    font-size: 20px;
+    font-family: 'Roboto-Bold';
+    margin: 0 auto;
+}
+
+.main__top-href {
+    padding: 15px 30px;
+    color: black;
+    background: white;
+    border-radius: 25px;
+    border: solid black 3px;
+    font-family: 'Monserrat-Bold';
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: 30px auto;
+    transition: 0.5s;
+}
+
+.main__top-href:hover {
+    color: white;
+    background: black;
+}
+
+.main__center-img1 {
+    width: 340px;
+    height: 300px;
+}
+
+.main__center-h3 {
+    color: black;
+    font-size: 60px;
+    font-family: 'Monserrat-Regular';
+    padding: 30px;
+    text-align: center;
+}
+
+.main__center-box {
+    width: 350px;
+    border: solid white 4px;
+    border-radius: 10px;
+    background: rgb(209, 228, 39);
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.center__box-h3 {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+    font-family: 'Roboto-Regular';
+}
+
+.center__box-discription { 
+    width: 340px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto-Regular';
+    padding-bottom: 10px;
+    color: blue;
+}
+
+.center__box-href {
+    color: black;
+    padding: 10px;
+    background: blanchedalmond;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    font-family: 'Monserrat-Bold';
+    margin: 0 auto;
+}
+
+.main__center-box2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.osada {
+    width: 340px;
+}
+
+.main__bottom-h4 {
+    font-size: 70px;
+    font-family: 'Monserrat-Black';
+    display: flex;
+    justify-content: center;
+    padding-top: 30px ;
+    color: yellow;
+}
+
+.main__bottom-bs {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 30px ;
+}
+
+.main__bottom-title2 {
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Roboto-Regular';
+    padding: 30px 0 ;
+    display: flex;
+    justify-content: center;
+}
+.youtube{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.iframe3 {
+    width: 1100px;
+    height: 800px;
+}
+/* MAIN END */
+
+/* FOOTER START */
+
+.footer {
+    background: #383535;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__box-href {
+    color: green;
+    font-size: 20px;
+    font-family: 'Monserrat-Black';
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.footer__box-href:hover {
+    color: white;
+}
+
+.footer__list-href {
+    color: rgb(162, 245, 9);
+    font-size: 30px;
+    font-family:'Monserrat-Black';
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__list-href:hover {
+    color: white;
+    background: chocolate;
+}
+
+.footer__list {
+    display: flex;    
+}
+
+/* FOOTER END */
+
+
+/* PAGE START */
+
+
+.header__nav2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-page {
+    background-color: blue;
+}
+
+.header__list2 {
+    display: flex;
+    
+}
+
+.footer__list2-href {
+    color: white;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: 'Roboto-Regular';
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.footer__list2-href:hover {
+    color: black;
+    background: white;
+}
+
+.header__list2-href {
+    color: white;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: 'Roboto-Regular';
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.header__list2-href:hover {
+    color: black;
+    background: white;
+}
+
+.headerpage__content-img {
+    width: 100%;
+}
+
+.main__top2-h3 {
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Monserrat-Bold';
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.main__top2-disc {
+    color: yellowgreen;
+    width: 900px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Roboto-Medium';
+    padding-bottom: 30px;
+}
+
+.main__top2 {
+    border: solid red 5px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.h5 {
+    color: black;
+    font-size: 70px;
+    font-family: "Monserrat-Black";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.iframe2 {
+    width: 100%;
+    height: 600px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer2 {
+    background: rgb(14, 100, 170);
+}
+
+.link {
+    padding: 35px 10px;
+}
+
+.nav2__box2-h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto-Bold';
+    padding: 30px 0;
+}
+
+/* PAGE END */
